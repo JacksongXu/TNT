@@ -16,13 +16,13 @@
 DEBUG_SYMBOLS=true
 
 # Use newlib-nano-1.0
-#NANO=true
+NANO=true
 
 # C++ support
 #BUILD_CPP=true
 
 # GNU Debugger
-#BUILD_GDB=true
+BUILD_GDB=true
 
 # Insight graphical GDB interface
 #BUILD_INSIGHT=true
@@ -32,7 +32,7 @@ DEBUG_SYMBOLS=true
 
 # Size of buffers used by newlib, should be at least 64 bytes
 # This saves RAM, yet significantly slows down IO.
-BUFFSIZ=1024
+BUFFSIZ=64 #1024
 
 # Parallel build
 CPUS=4
